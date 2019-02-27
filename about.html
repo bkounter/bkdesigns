@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>About - BK Designs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- JAVASCRIPT -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    
+    <script src="http://bradleykounter.com//menu-function.js"></script>
+    <script src="scripts/menu-function.js"></script>
+
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="http://www.bradleykounter.com/style.css">
+    <link rel="stylesheet" type="text/css" href="http://www.bradleykounter.com/work-styling.css">
+    
+        <!--temporary
+        <link href="/css/style.css" rel="stylesheet">
+        <link href="/css/work-styling.css" rel="stylesheet">
+    
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    
+    <!-- IMAGES -->
+    
+</head>
+
+<body>
+
+<div id="popmenu" class="popmenu">
+    <a href="http://bradleykounter.com/" class="headline-4 white">Hello</a>
+    <a href="http://bradleykounter.com//collections.html" class="headline-4 white">Collections</a>
+    <a href="http://bradleykounter.com//background.html" class="headline-4 white">Background</a>
+    <a href="http://bradleykounter.com//about.html" class="headline-4 white">About</a>
+</div>
+    
+    
+<div id="nav" class="button">  
+    <ul class="padding">
+        <a href="http://bradleykounter.com/"><img src="http://bradleykounter.com/logo.svg" style="height:40px; float:left;"></a>
+        <div id="menu-list">
+            <a class="white" href="http://bradleykounter.com//collections.html">Collections</a>
+            <a class="white" href="http://bradleykounter.com//background.html">Background</a>
+            <a class="white" href="http://bradleykounter.com//about.html">About</a>
+        </div>
+          
+        <div id="toggleButton" class="menu" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </ul>
+</div>
+    
+<div id="bottom-nav">  
+    <ul class="padding">
+        <a href="https://www.linkedin.com/in/bradley-kounter/">
+            <img class="social" src="http://bradleykounter.com/assets/linkedin_40px.svg">
+        </a>
+        <a href="https://www.facebook.com/bradley.kounter?ref=bookmarks">
+            <img  class="social" src="http://bradleykounter.com/assets/facebook_40px.svg">
+        </a>
+        <a href="mailto:bradleykounter@gmail.com?subject=Design or Development Work Needed">
+            <img class="social" src="http://bradleykounter.com/assets/email_40px.svg">
+        </a>
+    </ul>
+</div>
+    
+<div id="left" class="about-background">
+        <div id="jumbo-tron" class="headline-1 white left padding animate-bottom">
+            <span class="light">/</span>About 
+        </div>
+</div>
+
+    
+    <div id="content">
+        <div class="black padding animate-bottom ">
+           
+            <div class="headline-3 primary">About me</div>
+            <div class="primary headline-6 regular" style="width:100%; display: block; overflow: hidden; font-size: 16px;">
+                ..........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+            </div>
+            
+            <section class="columns">
+                <div class="column1">
+                    <div class="headline-5 high-emphasis">
+                        Bradley Kounter
+                    </div>
+                    <div class="body-1 med-emphasis">
+                        I am a self-taught, passionate designer. I started with building computers from scratch at 13 years old, and now I´ve designed with some of the biggest in the industry. I live and breathe design!
+                    </div>
+                </div>
+                <div class="column2 column-image portrait">
+                </div>
+            </section>
+            <section class="columns spacer">
+                <div class="column2 column-image family">
+                </div>
+                <div class="column1 column-text">
+                    <div class="headline-5 high-emphasis">Family</div>
+                    <div class="body-1 med-emphasis">
+                        I am happily married as of 2 years ago to my wife, Jessica Kounter. She is a nurse at CHOC, and I am so proud to call her my wife! We rescued a 2 year old German short-haired pointer/ beagle/ boxer/ lab/ mystery mutt. She´s crazy enough to chase any ball you throw, no matter the distance.
+                    </div>
+                </div>
+            </section>
+            <section class="columns spacer">
+                <div class="column1">
+                    <div class="headline-5 high-emphasis">
+                        Hobbies
+                    </div>
+                    <div class="body-1 med-emphasis">
+                        My top three hobbies are being outside, playing guitar, and gaming. I also love photography. In my spare time I run off to the mountains and beach to take photos like the ones featured on my website.
+                    </div>
+                </div>
+                <div class="column2 column-image hobbies">
+                </div>
+            </section>
+        </div>
+    </div>
+
+    
+    
+    <script>
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+</script>
+   
+    <!-- Side menu popup function -->
+    
+
+    
+    <!-- END Side menu popup function -->
+
+    
+<script>   
+function(){
+    $('#toggleButton').click( function() {
+        var toggleWidth = $("#popmenu").width() == 300 ? "0px" : "300px";
+        $('#popmenu').animate({ width: toggleWidth });
+    });
+}
+</script>
+    
+    
+
+    
+
+</body>
+</html>
+
+
+
+
+
+
